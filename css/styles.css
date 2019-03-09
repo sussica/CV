@@ -5,7 +5,7 @@ body{
 
 .container1{
   background-color: #a6e3e9;
-  height:500px;
+  height:750px;
   text-align: center;
   margin-top: 0;
   margin-left: 0;
@@ -14,28 +14,43 @@ body{
 }
 
 .brief{
-  position: absolute;
-  right: 25%;
-  top:200px;
+  position: relative;
+  top:45%;
 }
 
 .planet{
-  width: 15%;
+  width: 16%;
   position: absolute;
-  top:30px;
+  top:15%;
   left:5%;
 }
 
 .sun{
-  width: 18%;
+  width: 23%;
   position: absolute;
-  top:50px;
-  left:20%;
+  top:3%;
+  right:10%;
 }
 
 .earth{
-  width: 15%;
+  width: 17%;
   position: absolute;
-  bottom: 20px;
+  bottom: 15%;
   left:10%;
+}
+
+h1{
+  font-family: 'Sacramento', cursive;
+}
+
+.photo{
+  border-radius: 50%;
+}
+
+.middle-container{
+  text-align: center;
+}
+
+.bottom-container{
+  text-align: center;
 }
