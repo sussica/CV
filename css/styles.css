@@ -1,0 +1,9 @@
+.backgroundImage{
+  width: 20%;
+  margin: 0;
+}
+body{
+  background-color: rgba(166, 277, 233, 0.2);
+  margin-top: 0;
+  margin-left: 0;
+}
