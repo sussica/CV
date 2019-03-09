@@ -1,56 +1,56 @@
-body{
+body {
   margin: 0;
   padding: 0;
 }
 
-.container1{
+.container1 {
   background-color: #a6e3e9;
-  height:750px;
+  height: 750px;
   text-align: center;
   margin-top: 0;
   margin-left: 0;
   position: relative;
-  bottom:25px;
+  bottom: 25px;
 }
 
-.brief{
+.brief {
   position: relative;
-  top:45%;
+  top: 45%;
 }
 
-.planet{
+.planet {
   width: 16%;
   position: absolute;
-  top:15%;
-  left:5%;
+  top: 15%;
+  left: 5%;
 }
 
-.sun{
+.sun {
   width: 23%;
   position: absolute;
-  top:3%;
-  right:10%;
+  top: 3%;
+  right: 10%;
 }
 
-.earth{
+.earth {
   width: 17%;
   position: absolute;
   bottom: 15%;
-  left:10%;
+  left: 10%;
 }
 
-h1{
+h1 {
   font-family: 'Sacramento', cursive;
 }
 
-.photo{
+.photo {
   border-radius: 50%;
 }
 
-.middle-container{
+.middle-container {
   text-align: center;
 }
 
-.bottom-container{
+.bottom-container {
   text-align: center;
 }
