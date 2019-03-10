@@ -111,9 +111,29 @@ table{
 
 .content-table{
   display: inline-block;
+  width:60%;
 }
 
 .pic-table{
   display: inline-block;
-  width: 30%;
+  width: 10%;
+}
+
+.cibcClass{
+  width: 80%;
+}
+
+.cibcPhoto{
+  position: relative;
+  top: 50px;
+}
+
+.rice{
+  width: 170%;
+}
+
+.bus{
+  width: 190%;
+  position: relative;
+  right: 20px;
 }
