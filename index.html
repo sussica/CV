@@ -6,36 +6,37 @@
   <title>Scarlett Su</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="favicon.png">
-  <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Sacramento|Sniglet" rel="stylesheet">
 </head>
 
 <body>
   <div class="container1">
-    <img class="planet" src="planet.png" alt=""><img class="sun" src="sun.png" alt="">
+    <img class="planet" src="planet.png" alt="">
+    <img class="sun" src="sun.png" alt="">
     <img class="earth" src="earth.png" alt="">
-    <div class="brief">
+    <div class="intro">
       <h1>Hello World! I'm Scarlett.</h1>
-      <p>A Computer Science Student and Aspiring Software Developer.</p>
+      <p class="brief">A Computer Science Student and Aspiring Software Developer.</p>
     </div>
   </div>
 
   <div class="middle-container">
     <div class="profile">
       <img class="photo" src="https://media.licdn.com/dms/image/C5603AQEHsovMF3g2Qw/profile-displayphoto-shrink_200_200/0?e=1557360000&v=beta&t=u-FiY83iOAv4l9JA8xExKbri4Df2NKVQnNo5EG-sx08" alt="">
-      <h2>Hi!</h2>
-      <p>I'm currently a third-year computer science student at University of British Columbia based on Vancouver, Canada👩🏻‍🎓.<br>
+      <h2 class="hello">Hi!</h2>
+      <p class="myinfo">I'm currently a third-year computer science student at University of British Columbia based on Vancouver, Canada👩🏻‍🎓.<br>
         I have passion for web and mobile development💻. <br>My favourite hobbies are reading books📖 and doing photography📷.</p>
     </div>
     <hr>
 
 
-    <div class="">
-      <h2>What Skills Do I have?</h2>
+    <div class="skill-container">
+      <h2 class="hello">What Skills Do I have?</h2>
 
-      <div class="skillTable">
-        <table>
-          <tr>
-            <td class="skill right">Languages</td>
+      <div>
+        <table class="skillTable">
+          <tr class="shouldHighlight">
+            <td class="skill right title">Languages</td>
             <td class="skill left">Java<br><br>
               C/C++<br><br>
               Racket<br><br>
@@ -46,16 +47,16 @@
               XML</td>
           </tr>
 
-          <tr>
+          <tr class="shouldHighlight">
             <td class="skill right">Node.js<br><br>
               Express.js<br><br>
               JQuery<br><br>
               Bootstrap<br><br>
               Mongo DB</td>
-            <td class="skill left">Framework and Library</td>
+            <td class="skill left title">Framework and Library</td>
           </tr>
-          <tr>
-            <td class="skill right">Other Tools</td>
+          <tr class="shouldHighlight">
+            <td class="skill right title">Other Tools</td>
             <td class="skill left">Excel<br><br>
               LaTex<br><br>
               R<br><br>
@@ -75,7 +76,7 @@
 
     <div class="Work Experience">
       <div>
-        <h2>Where have I worked?</h2>
+        <h2 class="hello">Where have I worked?</h2>
         <div class="cibc">
           <table class="cibcClass">
             <tr>
@@ -108,7 +109,7 @@
 
 
     <div class="projects">
-      <h2>What Projects have I done so far?</h2>
+      <h2 class="hello">What Projects have I done so far?</h2>
       <div class="skill-row">
 
 
@@ -116,8 +117,11 @@
           <tr>
             <td class="skill left content-table">
               <h3>Meal Picker</h3>
-              <h4>Dec 2018 - Present</h4>
-
+              <div class="butn-area">
+                <h4>Dec 2018 - Present</h4>
+                <p class="button"><a class="butn" href="https://mealpickerapp.herokuapp.com/ ">Visit Live</a>
+                  <a class="butn" href="https://github.com/sussica/MealPicker">GitHub</a></p>
+              </div>
               <ul>
                 <li>Developed a website that provides suggested restaurants based on user’s location using geolocation by calling Google Maps Places API.</li>
                 <br>
@@ -127,6 +131,7 @@
                 <br>
                 <li>Deployed to Heroku.</li>
               </ul>
+              <p class="individualSkill">Skills: Node.js, Express.js, JavaScript, jQuery, Heroku, HTML, CSS, Bootstrap</p>
             </td>
             <td class="pic-table">
               <img class="photo rice" src="rice.png" alt="">
@@ -142,20 +147,24 @@
       </td>
       <td class="skill left content-table">
         <h3>Buses Are Us</h3>
-        <h4>Oct 2017 - Nov 2017</h4>
+
+        <div class="butn-area">
+          <h4>Oct 2017 - Nov 2017</h4>
+          <p class="button"> <a class="butn" href="https://github.com/sussica/BusesAreUs">GitHub</a></p>
+        </div>
         <ul>
           <li>Implemented the bus route query functionality by calling Translink API and displaying the results using Android SDK.</li>
           <br>
           <li>Implemented the user interface which contains a map and markers showing the nearest bus stop based on users' location after the query information is returned.</li>
         </ul>
+        <p class="individualSkill">Skills: Android SDK, Java, JSON parser, basic UI, Junit testing</p>
       </td>
       </tr>
       </table>
 
 
-
-      </div>
     </div>
+  </div>
   </div>
   <hr>
 
@@ -165,21 +174,20 @@
 
 
   <div class="contact-me">
-    <h2>Get In Touch</h2>
-    <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-    <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-    <a class="btn" href="mailto:sussicaya@gmail.com">CONTACT ME</a>
+    <h2 class="hello">Get In Touch</h2>
+    <h3>If you would know me more, let's connect on LinkedIn!</h3>
+
   </div>
   </div>
 
 
-
-
+<p> <a class="contactmebutn" href="mailto:sussicaya@gmail.com">CONTACT ME</a></p>
 
   <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/scarlett-su-55727b13b/">LinkedIn</a>
-    <a class="footer-link" href="https://github.com/sussica">GitHub</a>
-    <p>© 2019 Shijia Su.</p>
+
+    <p class="footprint-container"> <a class="foot-print"  href="https://www.linkedin.com/in/scarlett-su-55727b13b/">LinkedIn</a>
+    <a class="foot-print"  href="https://github.com/sussica">GitHub</a> </p>
+    <p class="cyr">© 2019 Shijia Su.</p>
   </div>
 
 

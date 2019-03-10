@@ -3,6 +3,24 @@ body {
   padding: 0;
 }
 
+hr {
+  border: 0;
+  border-top: 5px dotted #eeeeee;
+  height: 0;
+  width: 5%;
+  margin: 80px auto;
+}
+
+h3 {
+  color: #f68787;
+}
+
+h4 {
+  font-size: 1.2em;
+  display: inline-block;
+}
+
+/**top container**/
 .container1 {
   background-color: #a6e3e9;
   height: 750px;
@@ -10,10 +28,10 @@ body {
   margin-top: 0;
   margin-left: 0;
   position: relative;
-  bottom: 25px;
+  bottom: 50px;
 }
 
-.brief {
+.intro {
   position: relative;
   top: 45%;
 }
@@ -41,8 +59,18 @@ body {
 
 h1 {
   font-family: 'Sacramento', cursive;
+  font-size: 4.3em;
+  color: #2f9296;
+  margin: 20px;
 }
 
+.brief {
+  font-family: 'Sniglet', cursive;
+  font-size: 1.5em;
+  color: #2f9296;
+}
+
+/* intro container*/
 .photo {
   border-radius: 50%;
 }
@@ -51,17 +79,68 @@ h1 {
   text-align: center;
 }
 
-.bottom-container {
-  text-align: center;
+.hello {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  color: #2f9296;
+  font-weight: bolder;
 }
 
-.skill-column:hover{
-  background-color: yellow;
+.myinfo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  margin-bottom: 10px;
 }
 
+.profile {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+/*skill container*/
+.skill-container {
+  margin-top: 10px;
+}
+
+table {
+  width: 100%;
+  margin: auto;
+}
+
+.skill {
+  display: table-cell;
+  width: 50%;
+  padding: 30px 70px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+  line-height: 1;
+}
+
+.shouldHighlight {
+  color: #66BFBF;
+}
+
+.shouldHighlight:hover {
+  font-weight: 1000;
+  color: #f68787;
+}
+
+.title {
+  font-family: 'Sniglet', cursive;
+  font-size: 2em;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
 
 ul {
   list-style: none;
+  line-height: 1.5;
 }
 
 li:before {
@@ -69,71 +148,141 @@ li:before {
   margin-right: 10px;
 }
 
-.content-container{
-  text-align:left;
+.content-container {
+  text-align: left;
   width: 70%;
   margin: 20px;
 }
 
-.profile{
-  margin-top: 100px;
-  margin-bottom: 80px;
-}
-
-table{
-  width: 100%;
-  margin: auto;
-
-}
-
-
-.skill{
-  display: table-cell;
-  width: 50%;
-  padding: 50px 70px;
-}
-
-.skillTable{
+.skillTable {
   text-align: center;
 }
 
-.left{
-  text-align: left;
-}
-
-.right{
-  text-align: right;
-}
-
-.cibcIMG{
+.cibcIMG {
   display: inline-block;
 }
 
-.content-table{
+.content-table {
   display: inline-block;
-  width:60%;
+  width: 60%;
 }
 
-.pic-table{
+.pic-table {
   display: inline-block;
   width: 10%;
 }
 
-.cibcClass{
+.cibcClass {
   width: 80%;
 }
 
-.cibcPhoto{
+.cibcPhoto {
   position: relative;
   top: 50px;
 }
 
-.rice{
+.rice {
   width: 170%;
 }
 
-.bus{
+.bus {
   width: 190%;
   position: relative;
   right: 20px;
+}
+
+.individualSkill {
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+/*button*/
+.butn-area {
+  position: relative;
+}
+
+.butn {
+  background: #66BFBF;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 10px;
+  display: inline;
+}
+
+.butn:hover {
+  background: #f69787;
+  text-decoration: none;
+}
+
+
+.button {
+  display: inline;
+  position: absolute;
+  right: 0;
+  top: 10%;
+}
+
+/****bottom container***/
+.bottom-container {
+  text-align: center;
+  background-color: #a6e3e9;
+  margin-bottom: 0;
+  position: relative;
+  top: 16px;
+  height: 150px;
+}
+
+.foot-print {
+  background: #f69787;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 10px;
+  display: inline;
+  position: relative;
+  top:35px;
+}
+
+.foot-print:hover {
+  background: #66BFBF;
+  text-decoration: none;
+}
+
+.cyr {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  top: 55px;
+  color: white;
+  font-size: 1.2em;
+}
+
+.contactmebutn{
+
+}
+
+.contactmebutn {
+  background: #f69787;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 10px;
+  display: inline;
+  position: fixed;
+  right:1%;
+  top:20px;
+}
+
+.contactmebutn:hover {
+  background: #66BFBF;
+  text-decoration: none;
 }
